@@ -1,0 +1,7 @@
+on:
+  push:
+    test_suites: ["SUITE-29"]
+  pull_request:
+    tests: ["TEST-1", "TEST-2"]
+  schedule:
+    test_suites: ["SUITE-10"]
