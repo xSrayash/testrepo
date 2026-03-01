@@ -1,0 +1,16 @@
+name: TryNarrative QA
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "0 4 * * 1-5"
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger AI Tests
+        uses: Srayash/testaction@TEst
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
