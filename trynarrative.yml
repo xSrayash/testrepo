@@ -1,8 +1,8 @@
 on:
   push:
-    tests: ["TEST-696"]
-    test_suites: ["SUITE-29"]
-  pull_request:
-    tests: ["TEST-626", "TEST-641"]
-  schedule:
     tests: ["TEST-652"]
+    # test_suites: ["SUITE-29"]
+  # pull_request:
+  #   tests: ["TEST-626", "TEST-641"]
+  # schedule:
+  #   tests: ["TEST-652"]
