@@ -10,7 +10,8 @@
 - [ ] Private key fetch from aws secrets manager
 - [ ] Github app creation for local, staging, prod
 Polish
-- [ ] PR Comment / Slack report
+- [ ] PR Comment
+- [x] Slack report
 - [ ] Update frontend docs
 
 Extract internal server-to-server authentication in a helper/util. (not needed for mvp)
