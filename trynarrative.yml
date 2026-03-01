@@ -5,4 +5,4 @@ on:
   pull_request:
     tests: ["TEST-626", "TEST-641"]
   schedule:
-    test_suites: ["TEST-641"]
+    tests: ["TEST-652"]
