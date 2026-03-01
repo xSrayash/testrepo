@@ -9,6 +9,10 @@ on:
 jobs:
   run-tests:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
       - name: Trigger AI Tests
         uses: Srayash/testaction@TEst
