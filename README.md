@@ -9,7 +9,7 @@
 - [x] Private key fetch from aws secrets manager
 - [ ] Github app creation for local, staging, prod
 Polish
-- [x] PR Comment (test if it comments on PR) - 9.
+- [x] PR Comment (test if it comments on PR) - 10.
 - [x] Slack report
 - [ ] Update frontend docs
 

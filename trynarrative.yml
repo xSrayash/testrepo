@@ -3,6 +3,6 @@ on:
     tests: ["TEST-652"]
     # test_suites: ["SUITE-29"]
   pull_request:
-    tests: ["TEST-652"]
+    tests: ["TEST-670"]
   # schedule:
     # tests: ["TEST-652"]
