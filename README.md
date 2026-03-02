@@ -15,3 +15,5 @@ Polish
 - [ ] Update frontend docs
 
 Extract internal server-to-server authentication in a helper/util. (not needed for mvp)
+
+- [ ] test if it comments on PR.
